@@ -1,0 +1,44 @@
+.work {
+    min-height: 400px;
+    margin-top: 30px;
+    .title {
+        text-align: center;
+        font-size: 35px;
+        line-height: 60px;
+        color: black;
+        margin-bottom: 30px;
+    }
+    &__wrapper {
+        margin-top: 85px;
+        display: grid;
+        grid-template-columns: repeat(5,245px);
+        row-gap: 30px;
+        justify-content: space-between;
+    }
+    &__item {
+      
+        &-icons {
+            position: relative;
+            text-align: center;
+            &:before {
+                content: '';
+                position: absolute;
+                
+                left: 70px;
+                top: -18px;
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                border: 3px solid #000;
+            }
+
+        }
+        &-text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 15px; 
+            margin-top: 20px;
+        }
+        
+    }
+}

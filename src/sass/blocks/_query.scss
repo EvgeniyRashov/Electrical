@@ -1,0 +1,93 @@
+.query {
+    max-height: 600px;
+    background: #161A1E;
+    
+    
+    .title {
+        
+        text-align: center;
+        font-size: 35px;
+        line-height: 60px;
+        color: #ffff;
+        letter-spacing: .1em;
+        text-shadow: 2px 1px #ffff, 7px 4px rgba(200, 120, 22, .2);
+     
+    }
+    &__wrapper {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(2,550px);
+        column-gap: 100px;
+        
+    }
+    &__item{
+        &-items {
+            &:nth-child(1) {
+                margin-bottom: 25vtkjpx;
+            }
+        }
+        .text {
+            color: #fff;
+            font-size: 20px;
+        }
+        &-phone {
+            padding: 0 10px;
+            color: #fff;
+            font-size: 40px;
+        }
+        &-descr {
+            color: #fff;
+            font-size: 20px;
+    
+        }
+        .feed-form {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            width:350px;
+            input {
+                height: 50px;
+                border-radius: 5px;
+                background-color: #ffff;
+                margin-bottom: 15px;
+                border-radius: 14px;
+                border: none;
+                padding: 0 20px;
+                font-size: 18px;
+                
+                &:nth-child(2) {
+                    margin-bottom: 20px;
+                }
+            }
+            span {
+                display: flex;
+                margin-top: -48px;
+                color: #fff;
+                text-decoration: none;
+                margin-left: 26px;
+                height: 150px;
+                font-size: 13px;
+                a {
+                    text-align: left;
+                    color: white;
+                }
+            }
+            .sumbit {
+                margin-top: 15px;
+                width: 160px;
+                height: 50px;
+                border-radius: 14px;
+                background-color: #fff;
+                border: none;
+                color: black;
+                font-size: 18px;
+                text-transform: uppercase;
+
+            }
+        }
+
+    }
+   
+    
+    
+}

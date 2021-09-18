@@ -1,0 +1,47 @@
+.prices {
+    padding: 10px;
+    margin: 0 30px 0 0;
+    width: 100%;
+    &__electric {
+      
+        text-align: center;
+        font-size: 35px;
+        line-height: 60px;
+        color: black;
+        margin-bottom: 30px;
+        
+    }
+   
+    &__subtitle {
+        font-size: 21px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        &:hover {
+            border-color: black;
+        }
+    }
+
+    .child {
+        display: none;
+    }
+  }
+    table {
+    
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 2px solid #ddd;
+        
+        }
+    th {
+        border: 1px solid #ddd;
+        text-align: center;
+       
+        padding: 8px;
+        font-size: 14px;
+        
+            }
+        
+    tr {
+        &:nth-child(even){background-color: #f2f2f2}
+    }

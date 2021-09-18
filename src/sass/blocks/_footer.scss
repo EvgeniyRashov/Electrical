@@ -1,0 +1,56 @@
+.footer {
+    min-height: 200px;
+    background: black;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+        .text {
+            padding: 0 15px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+            color: #fff;
+
+        }
+        &-logo {
+            img {
+                margin-top: 23px;
+                max-height: 133px;
+                &:hover {
+                    transform: scale(1.1);
+                }
+               
+            }
+        }
+        &-phone {
+            margin-left: -87px;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+            
+    
+        }
+        &-descr {
+            margin-left: -127px;
+            font-size: 15px;
+            color: #ffff;
+        }
+        &-social {
+            margin-left: -80px;
+            color: #ffff;
+        }
+
+        }
+    }

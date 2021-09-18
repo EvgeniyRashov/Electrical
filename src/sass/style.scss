@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'libs/font-awesome.min';
+@import 'libs/_slick.scss';
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+@import 'blocks/menu';
+@import 'blocks/logotip';
+@import 'blocks/carousel';
+@import 'blocks/service';
+@import 'blocks/advantages';
+@import 'blocks/about';
+@import 'blocks/prices';
+@import 'blocks/work';
+@import 'blocks/query';
+@import 'blocks/footer';
+@import 'blocks/electrical';
+@import 'blocks/catalog';
+@import 'blocks/slaider';
+

@@ -1,0 +1,47 @@
+.advantages {
+    
+    margin-top: 30px;
+    background: url('../../img/main_bg.jpg') center (center / cover) no-repeat;
+
+    .title {
+        padding-top: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 41px;
+        line-height: 60px;
+        color: black;
+        margin-bottom: 30px;
+
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,445px);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 30px;
+        justify-content: space-between;
+        margin-left: 75px;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: 350px;
+        
+        &-item {
+            display: flex;
+            align-items:center;
+            &-subtitle {
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            
+        }
+        .text {
+            margin-left: 42px;
+            margin-top: 10px;
+            font-size: 14px;
+            margin-bottom: 0;
+            color: black;
+        }
+        
+    }
+}
