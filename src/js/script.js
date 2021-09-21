@@ -1,4 +1,4 @@
-
+'use stric'
 
 
 
@@ -31,5 +31,21 @@ $(document).ready(function(){
       nextArrow:'<button type="button" class="slick-next"><img src="../icons/leftright/ligtright.png"></button>',
   });
    
+
+});
+// Scroll
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 1500) {
+      $('.pageup').fadeIn();
+  } else {
+    $('.pageup').fadeOut();
+  }
+});
+$(function(){
+  $("a[href^='#']").click(function(){
+          var _href = $(this).attr("href");
+          $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+          return false;
+  });
 });
 
