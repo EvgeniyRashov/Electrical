@@ -1,13 +1,11 @@
 ul {
     list-style: none;
  }
- 
- .topmenu {
+  .topmenu {
     
     background: black;
  }
- 
- .topmenu a {
+  .topmenu a {
     text-decoration: none;
     display: block;
     transition: .4s ease-in-out;
@@ -15,14 +13,9 @@ ul {
       text-decoration: none;
       color: white;
 
+      }     
    }
-    
-    
-
-   }
- 
- 
- .topmenu>li>a {
+   .topmenu>li>a {
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -57,53 +50,3 @@ ul {
     }
  }
  
- @media(min-width: 600px) {
-    .topmenu {
-       width: 100%;
-       display: flex;
-       justify-content: center;
-       margin-bottom: 0;
-    }
-    .topmenu>li {
-       position: relative;
-    }
-    .topmenu>li:after {
-       content: "";
-       position: absolute;
-       right: 0;
-       width: 1px;
-       height: 12px;
-       background: black;
-       top: 24px;
-       box-shadow: 4px -2px 0 #d2d2d2;
-       transform: rotate(30deg);
-    }
-    .topmenu>li:last-child:after {
-       background: none;
-       box-shadow: none;
-    }
-    .submenu {
-       position: absolute;
-       left: 50%;
-       top: 100%;
-       width: 210px;
-       margin-left: -105px;
-       background: black;
-       border: 1px solid #ededed;
-       z-index: 5;
-       visibility: hidden;
-       opacity: 0;
-       transform: scale(.8);
-       transition: .4s ease-in-out;
-    }
-    .topmenu>li:hover .submenu {
-       visibility: visible;
-       opacity: 1;
-       transform: scale(1);
-    }
-    .submenu li a {
-       text-align: center;
-       padding: 10px 0;
-       margin: 0 10px;
-    }
- }

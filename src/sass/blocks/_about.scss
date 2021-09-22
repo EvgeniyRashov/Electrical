@@ -15,19 +15,23 @@
         margin-bottom: 30px;
     }
     &__text {
+        margin-left: 10px;
         margin-top: 15px;
         display: flex;
         align-items:flex-end;
         font-size: 17px;
-        margin-left: -61px;
+
+        
     }
     &__list {
+        margin-left: 20px;
         margin-top: 10px;
-        margin-left: -50px;
+        
         li {
             margin-left: 5px;
             position: relative;
             left: 10px;
+            cursor: pointer;
            
             &:before {
                 content: '';
@@ -43,8 +47,8 @@
             &:hover {
                 width: 50%;
                 height: 30px;
-                border: 2px solid red;
-                color: red;
+                border: 2px solid rgb(160, 151, 151);
+                color: orangered;;
             }            
         }
     }

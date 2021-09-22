@@ -1,6 +1,5 @@
 .logotip {
-    position: relative;
-    height: 100%;
+    
     background-color: black;
 
    
@@ -11,22 +10,21 @@
         display: flex;
         justify-content: flex-start;
         align-items:center;
+        .fa-map-marker::before {
+            content: "\f041";
+            margin-left: 80px;
+        }
+        .fa-phone::before {
+            content: "\f095";
+            margin-left: 100px;
+        }
     
     }
-    .fa-instagram:before {
-        margin-left: 30px;
-        content: "\f16d";
-        color: #fff;
-    }
-    .fa-vk:before {
-        margin-left: 30px;
-        content: "\f189";
-        color: #fff;
-    }
+    
     &__social {
         margin-left: 185px;
         display: grid;
-        grid-template-columns: 474px 232px 39px 230px;
+        grid-template-columns: 513px 300px;
         justify-content: space-between;
         align-items: center;
 
@@ -66,4 +64,5 @@
 
     }
     }
+
     
