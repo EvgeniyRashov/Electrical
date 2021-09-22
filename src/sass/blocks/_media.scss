@@ -38,9 +38,142 @@
     font-size: 13px;
   }
 .swiper {
+    .swiper-slide .title {
+        padding-top: 2px;
+        font-size: 30px;
+        }
+    .swiper-slide .subtitle {
+        padding-top: 2px;
+        font-size: 21px;
+        padding-top: 0px;
+        font-size: 16px;
+        }
+    .swiper-slide .text {
+        padding-top: 2px;
+        font-size: 11px;
+        line-height: 19px;
+        text-align: start;
+        }
     
 }
+.service {
+    &__wrapper {
+        margin-left: 2px;
+        grid-template-columns: 250px 250px 250px;
     }
+    &__box {
+        width: 230px;
+        height: 200px;
+        &-img {
+            padding-top: 7px;
+            img {
+                height: 29px;
+            }
+        
+        }
+        h4 {
+            font-size: 14px;
+            &:before {
+                left: 88px;
+                top: -34px;
+                width: 45px;
+                height: 40px;
+            }
+            
+        }
+        p {
+            font-size: 10px;
+        }
+        &-btn {
+            margin-left: 62px;
+            width: 81px;
+            height: 22px;
+            font-size: 10px;
+        }
+    }
+}
+.advantages {
+    .title {
+        font-size: 30px;
+        margin-bottom: 3px;
+        padding-top: 3px;
+    }
+    &__wrapper {
+        margin-left: 15px;
+        row-gap: 0;
+        grid-template-columns: repeat(2,380px);
+        
+    }
+    &__items {
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        .text {
+            font-size: 12px;
+        }
+    }
+}
+.about {
+    background: url('../../img/bg_main.jpg');
+    
+    
+    .title {
+        font-size: 30px;
+        margin-bottom: 3px;
+        padding-top: 3px;
+    }
+    &__text {
+        font-size: 15px;
+    }
+    &__btn {
+        width: 138px;
+        height: 36px;
+        font-size: 11px;
+    }
+}
+.work {
+    .title{
+        font-size: 30px;
+    }
+    &__wrapper {
+        margin-top: 25px;
+        grid-template-columns: repeat(3,245px);
+    }
+}
+.query {
+    min-height: 600px;
+    .title {
+        font-size: 30px;
+    }
+    &__wrapper {
+        grid-template-columns: repeat(2,313px);
+        column-gap: 50px;
+        margin-left: 30px;
+    }
+    &__item {
+            &-phone {
+                font-size: 26px;
+            }
+            &-descr {
+                font-size: 15px;
+            }
+    }
+}
+.slaider {
+    &__title {
+        font-size: 30px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        margin: 0 0 20px;
+    }
+    &__inner {
+        margin: 0px 110px;
+    }
+}
+    }// заканчтвается медиа запрос
 
 
 
